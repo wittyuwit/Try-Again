@@ -26,7 +26,7 @@ void mydisplay(){
     glFlush();
 }
 int main(int argc, char** argv){
-    glutCreateWindow("Siti Witty Ariyanti"); //Memberi nama untuk file yang akan di run
+    glutCreateWindow("Example"); //Memberi nama untuk file yang akan di run
     glutDisplayFunc(mydisplay);
     glutMainLoop();
 }
